@@ -73,7 +73,7 @@ section header h1 {
 
 section header h2 {
   
-text-align: center;
+  text-align: center;
   color: var(--headline);
   margin-bottom: 2rem;
   text-transform: uppercase;
@@ -82,6 +82,7 @@ text-align: center;
 section header h4 {
   
   font-weight: 700;
+  font-size: 2.5rem;
   line-height: 150%;
   letter-spacing: 0.08rem;
   color: var(--headline);

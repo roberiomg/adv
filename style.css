@@ -148,12 +148,6 @@ section .content p {
 
 /* custom colors */
 
-
-#navigation .logo path[fill*='#00856F'],
-#backToTopButton circle {
-  fill: var(--brand-beige);
-}
-
 button.open-menu path[stroke*='#00856F'],
 #contact li path {
   stroke: var(--brand-beige);
@@ -485,18 +479,12 @@ footer .social-links {
   position: fixed;
   bottom: 1rem;
   right: 2.5rem;
-
-  background-color: brown;
-  visibility: visible;
-  opacity: 0;
-}
-
-#backToTopButton.show {
+  width: 5rem;
   opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-  
 }
+
+
+
 
 /*=== RESPONSIVO =================================*/
 @media (min-width: 1024px) {

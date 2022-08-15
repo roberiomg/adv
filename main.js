@@ -3,8 +3,7 @@ window.addEventListener('scroll', onScroll)
 onScroll()
 function onScroll() {
   showNavOnScroll()
-  showBackToTopButtonOnScroll()
-
+  
   activateMenuAtCurrentSection(home)
   activateMenuAtCurrentSection(services)
   activateMenuAtCurrentSection(diversos)
@@ -47,13 +46,7 @@ function showNavOnScroll() {
   }
 }
 
-function showBackToTopButtonOnScroll() {
-  if (scrollY > 0) {
-    backToTopButton.classList.add('show')
-  } else {
-    backToTopButton.classList.remove('show')
-  }
-}
+
 
 function openMenu() {
   document.body.classList.add('menu-expanded')

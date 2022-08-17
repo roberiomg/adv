@@ -361,6 +361,21 @@ body.menu-expanded button path {
   text-align: justify;
 }
 
+#services .card1 {
+  padding: 2rem;
+  
+
+  background: rgb(243, 239, 7);
+
+  border: 1px solid var(--brand-light);
+  border-radius: 0.6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
 #services .card h3 {
   margin-block: 1.6rem;
   text-align: center;
